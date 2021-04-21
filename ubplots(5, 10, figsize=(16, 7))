@@ -1,0 +1,197 @@
+[1mdiff --git a/notebooks/States.ipynb b/notebooks/States.ipynb[m
+[1mindex 8d81438..ba2286c 100644[m
+[1m--- a/notebooks/States.ipynb[m
+[1m+++ b/notebooks/States.ipynb[m
+[36m@@ -9,6 +9,24 @@[m
+     "import datajoint as dj"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "import requests"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "dj.conn()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[36m@@ -82,7 +100,20 @@[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[31m-    "dj.Diagram(schema)"[m
+[32m+[m[32m    "def download(url):\n",[m
+[32m+[m[32m    "    path = url.split('/') [-1]\n",[m
+[32m+[m[32m    "    with open(path, 'wb') as f:\n",[m
+[32m+[m[32m    "        f.write(requests.get(url).content)\n",[m
+[32m+[m[32m    "        return path"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "download(\"http://www.theus50.com/images/state-birds/{state}-bird.jpg\")"[m
+    ][m
+   },[m
+   {[m
+[36m@@ -151,6 +182,15 @@[m
+     "plt.imshow(img)"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "download(\"http://www.theus50.com/images/state-flags/{state}-flag.jpg\")"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[36m@@ -176,6 +216,24 @@[m
+     "        self.insert1(dict(key, flag_image=plt.imread(temp_file)))"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "img = (StateFlag & {'state_code': \"TX\"}).fetch1('flag_image')"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "plt.imshow(img)"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[36m@@ -185,6 +243,15 @@[m
+     "StateFlag.populate(display_progress=True, suppress_errors=True)"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "download(\"http://www.theus50.com/images/state-flowers/{state}-flower.jpg\")"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[36m@@ -219,15 +286,6 @@[m
+     "StateFlower.populate(display_progress=True)"[m
+    ][m
+   },[m
+[31m-  {[m
+[31m-   "cell_type": "code",[m
+[31m-   "execution_count": null,[m
+[31m-   "metadata": {},[m
+[31m-   "outputs": [],[m
+[31m-   "source": [[m
+[31m-    "dj.Diagram(schema)"[m
+[31m-   ][m
+[31m-  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[36m@@ -351,7 +409,20 @@[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[31m-    "dj.Diagram(schema)"[m
+[32m+[m[32m    "@schema\n",[m
+[32m+[m[32m    "class FlagSaturation(dj.Computed):\n",[m
+[32m+[m[32m    "    definition = \"\"\"\n",[m
+[32m+[m[32m    "    -> StateFlag\n",[m
+[32m+[m[32m    "    ---\n",[m
+[32m+[m[32m    "    saturation :  float \n",[m
+[32m+[m[32m    "    \"\"\"\n",[m
+[32m+[m[32m    "    \n",[m
+[32m+[m[32m    "    def make(self, key):\n",[m
+[32m+[m[32m    "        img = (StateFlag & key).fetch1('flag_image')\n",[m
+[32m+[m[32m    "        avg_color = img.mean(axis=(0,1))\n",[m
+[32m+[m[32m    "        sat = avg_color.max()/avg_color.sum()\n",[m
+[32m+[m[32m    "        self.insert1(dict(key, saturation=sat))\n",[m
+[32m+[m[32m    "        "[m
+    ][m
+   },[m
+   {[m
+[36m@@ -452,6 +523,50 @@[m
+     "    ax.axis(False)"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "@schema\n",[m
+[32m+[m[32m    "class FlagHue(dj.Computed):\n",[m
+[32m+[m[32m    "    definition = \"\"\"\n",[m
+[32m+[m[32m    "    -> FlagSaturation\n",[m
+[32m+[m[32m    "    ---\n",[m
+[32m+[m[32m    "    hue :  float \n",[m
+[32m+[m[32m    "    \"\"\"\n",[m
+[32m+[m[32m    "    \n",[m
+[32m+[m[32m    "    def make(self, key):\n",[m
+[32m+[m[32m    "        img, saturation = (StateFlag * FlagSaturation & key).fetch1('flag_image', 'saturation')\n",[m
+[32m+[m[32m    "        self.insert1(dict(key, hue=img.mean(axis = -1).std()/saturation))\n",[m
+[32m+[m[32m    "        "[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "FlagHue.populate(display_progress=True)"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "for ax, info in zip(axx.flatten(), \n",[m
+[32m+[m[32m    "                    (StateFlag*State*FlagHue).fetch(as_dict=True, order_by='hue')):\n",[m
+[32m+[m[32m    "    ax.imshow(info['flag_image'])\n",[m
+[32m+[m[32m    "    ax.set_title(info['state'])\n",[m
+[32m+[m[32m    "    ax.axis(False)"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
