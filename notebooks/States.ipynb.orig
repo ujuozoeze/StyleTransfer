@@ -2,7 +2,11 @@
  "cells": [
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 1,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -11,6 +15,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 2,
    "metadata": {},
    "outputs": [],
@@ -48,6 +53,9 @@
   {
    "cell_type": "code",
    "execution_count": 4,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -57,7 +65,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 5,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -66,7 +78,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 6,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -88,7 +104,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 7,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -105,6 +125,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 8,
    "metadata": {},
    "outputs": [
@@ -213,12 +234,18 @@
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "State()"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 9,
    "metadata": {},
    "outputs": [],
@@ -232,7 +259,38 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'{state}-bird.jpg'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "download(\"http://www.theus50.com/images/state-birds/{state}-bird.jpg\")"
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dj.Diagram(schema)"
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
+   ]
+  },
+  {
+   "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 11,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -262,7 +320,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+<<<<<<< HEAD
+   "execution_count": 12,
    "metadata": {},
    "outputs": [
     {
@@ -278,18 +337,24 @@
        "[]"
       ]
      },
-     "execution_count": 13,
+     "execution_count": 12,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "StateBird().populate(display_progress=True, suppress_errors=True)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+<<<<<<< HEAD
+   "execution_count": 13,
    "metadata": {},
    "outputs": [
     {
@@ -392,18 +457,27 @@
        " (Total: 50)"
       ]
      },
-     "execution_count": 14,
+     "execution_count": 13,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "StateBird()"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+<<<<<<< HEAD
+   "execution_count": 14,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -412,16 +486,17 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+<<<<<<< HEAD
+   "execution_count": 15,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.image.AxesImage at 0x7f02920aecd0>"
+       "<matplotlib.image.AxesImage at 0x7f3fcca52f70>"
       ]
      },
-     "execution_count": 16,
+     "execution_count": 15,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -438,13 +513,22 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "plt.imshow(img)"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 17,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -469,6 +553,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 18,
    "metadata": {},
    "outputs": [
@@ -491,20 +576,28 @@
    "outputs": [],
    "source": [
     "img = (StateFlag & {'state_code': \"TX\"}).fetch1('flag_image')"
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "StateFlag.populate(display_progress=True, suppress_errors=True)"
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+<<<<<<< HEAD
+   "execution_count": 26,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.image.AxesImage at 0x7f02907b3fd0>"
+       "<matplotlib.image.AxesImage at 0x7fc95c3cedc0>"
       ]
      },
-     "execution_count": 20,
+     "execution_count": 26,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -527,7 +620,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
+   "execution_count": 20,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -552,7 +648,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+<<<<<<< HEAD
+   "execution_count": 21,
    "metadata": {},
    "outputs": [
     {
@@ -563,13 +660,19 @@
      ]
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "StateFlower.populate(display_progress=True)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
+<<<<<<< HEAD
+   "execution_count": 22,
    "metadata": {},
    "outputs": [
     {
@@ -587,12 +690,29 @@
    ],
    "source": [
     "plt.imshow((StateFlower & {'state_code': 'TX'}).fetch1('flower_image'))\n",
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dj.Diagram(schema)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "plt.imshow((StateFlag & {'state_code': 'WA'}).fetch1('flag_image'))\n",
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
     "plt.axis(False);"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 24,
+<<<<<<< HEAD
+   "execution_count": 23,
    "metadata": {},
    "outputs": [
     {
@@ -710,18 +830,24 @@
        " (Total: 50)"
       ]
      },
-     "execution_count": 24,
+     "execution_count": 23,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "StateFlag * State"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 25,
+<<<<<<< HEAD
+   "execution_count": 24,
    "metadata": {},
    "outputs": [
     {
@@ -737,6 +863,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "\n",
@@ -749,7 +880,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+<<<<<<< HEAD
+   "execution_count": 25,
    "metadata": {},
    "outputs": [
     {
@@ -765,6 +897,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "for ax, info in zip(axx.flatten(), \n",
@@ -776,7 +913,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 27,
+<<<<<<< HEAD
+   "execution_count": 26,
    "metadata": {},
    "outputs": [
     {
@@ -792,6 +930,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "for ax, info in zip(axx.flatten(), \n",
@@ -803,7 +946,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 28,
+<<<<<<< HEAD
+   "execution_count": 27,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -825,7 +972,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 29,
+<<<<<<< HEAD
+   "execution_count": 28,
    "metadata": {},
    "outputs": [
     {
@@ -838,11 +986,19 @@
    ],
    "source": [
     "FlagSaturation.populate(display_progress=True)"
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "FlagSaturation.populate()"
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 30,
+<<<<<<< HEAD
+   "execution_count": 29,
    "metadata": {},
    "outputs": [
     {
@@ -975,18 +1131,24 @@
        " (Total: 50)"
       ]
      },
-     "execution_count": 30,
+     "execution_count": 29,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "FlagSaturation * State * StateFlag"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+<<<<<<< HEAD
+   "execution_count": 30,
    "metadata": {},
    "outputs": [
     {
@@ -1002,6 +1164,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "\n",
@@ -1014,7 +1181,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 32,
+<<<<<<< HEAD
+   "execution_count": 31,
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dj.Diagram(schema)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1026,7 +1206,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+<<<<<<< HEAD
+   "execution_count": 32,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1045,7 +1229,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+<<<<<<< HEAD
+   "execution_count": 33,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1054,7 +1242,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+<<<<<<< HEAD
+   "execution_count": 34,
    "metadata": {},
    "outputs": [
     {
@@ -1070,6 +1259,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "\n",
@@ -1082,7 +1276,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+<<<<<<< HEAD
+   "execution_count": 35,
+=======
+   "execution_count": null,
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1101,16 +1299,25 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+<<<<<<< HEAD
+   "execution_count": 36,
    "metadata": {},
    "outputs": [],
    "source": [
     "FlagContrast.populate()"
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "FlagContrast.populate(display_progress=True)"
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
+<<<<<<< HEAD
+   "execution_count": 37,
    "metadata": {},
    "outputs": [
     {
@@ -1126,6 +1333,11 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
    "source": [
     "fig, axx = plt.subplots(5, 10, figsize=(16, 7))\n",
     "\n",
@@ -1138,6 +1350,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 41,
    "metadata": {},
    "outputs": [],
@@ -1158,6 +1371,25 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "`states`.`__flag_hue` (0 tuples)\n",
+      "Proceed? [yes, No]: yes\n",
+      "Tables dropped.  Restart kernel.\n"
+     ]
+    }
+   ],
+   "source": [
+    "FlagHue.drop()"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": 42,
    "metadata": {},
    "outputs": [
@@ -1165,7 +1397,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "FlagHue: 100%|██████████| 50/50 [00:00<00:00, 118.87it/s]\n"
+      "FlagHue: 100%|██████████| 50/50 [00:00<00:00, 124.55it/s]\n"
      ]
     }
    ],
@@ -1225,10 +1457,22 @@
        "</a>\n",
        "</g>\n",
        "</g>\n",
-       "<!-- FlagBrightness -->\n",
+       "<!-- StateFlower -->\n",
        "<g id=\"node2\" class=\"node\">\n",
+       "<title>StateFlower</title>\n",
+       "<g id=\"a_node2\"><a xlink:title=\"→ State\r",
+       "------------------------------\r",
+       "flower_image         \r",
+       "\">\n",
+       "<ellipse fill=\"#00007f\" fill-opacity=\"0.250980\" stroke=\"#00007f\" stroke-opacity=\"0.250980\" cx=\"50.62\" cy=\"-141.5\" rx=\"50.75\" ry=\"17.5\"/>\n",
+       "<text text-anchor=\"middle\" x=\"50.62\" y=\"-138.4\" font-family=\"arial\" font-size=\"12.00\" fill=\"#00007f\" fill-opacity=\"0.627451\">StateFlower</text>\n",
+       "</a>\n",
+       "</g>\n",
+       "</g>\n",
+       "<!-- FlagBrightness -->\n",
+       "<g id=\"node3\" class=\"node\">\n",
        "<title>FlagBrightness</title>\n",
-       "<g id=\"a_node2\"><a xlink:title=\"→ StateFlag\r",
+       "<g id=\"a_node3\"><a xlink:title=\"→ StateFlag\r",
        "------------------------------\r",
        "brightness           \r",
        "\">\n",
@@ -1238,9 +1482,9 @@
        "</g>\n",
        "</g>\n",
        "<!-- FlagContrast -->\n",
-       "<g id=\"node3\" class=\"node\">\n",
+       "<g id=\"node4\" class=\"node\">\n",
        "<title>FlagContrast</title>\n",
-       "<g id=\"a_node3\"><a xlink:title=\"→ FlagBrightness\r",
+       "<g id=\"a_node4\"><a xlink:title=\"→ FlagBrightness\r",
        "------------------------------\r",
        "contrast             \r",
        "\">\n",
@@ -1254,39 +1498,10 @@
        "<title>FlagBrightness-&gt;FlagContrast</title>\n",
        "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M204.62,-61.86C204.62,-51.45 204.62,-36.53 204.62,-26.12\"/>\n",
        "</g>\n",
-       "<!-- State -->\n",
-       "<g id=\"node4\" class=\"node\">\n",
-       "<title>State</title>\n",
-       "<g id=\"a_node4\"><a xlink:title=\"state_code           \r",
-       "------------------------------\r",
-       "state                \r",
-       "\">\n",
-       "<polygon fill=\"#000000\" fill-opacity=\"0.125490\" stroke=\"transparent\" points=\"180.62,-230 140.62,-230 140.62,-195 180.62,-195 180.62,-230\"/>\n",
-       "<text text-anchor=\"start\" x=\"148.62\" y=\"-211\" font-family=\"arial\" text-decoration=\"underline\" font-size=\"10.00\">State</text>\n",
-       "</a>\n",
-       "</g>\n",
-       "</g>\n",
-       "<!-- StateFlower -->\n",
-       "<g id=\"node5\" class=\"node\">\n",
-       "<title>StateFlower</title>\n",
-       "<g id=\"a_node5\"><a xlink:title=\"→ State\r",
-       "------------------------------\r",
-       "flower_image         \r",
-       "\">\n",
-       "<ellipse fill=\"#00007f\" fill-opacity=\"0.250980\" stroke=\"#00007f\" stroke-opacity=\"0.250980\" cx=\"50.62\" cy=\"-141.5\" rx=\"50.75\" ry=\"17.5\"/>\n",
-       "<text text-anchor=\"middle\" x=\"50.62\" y=\"-138.4\" font-family=\"arial\" font-size=\"12.00\" fill=\"#00007f\" fill-opacity=\"0.627451\">StateFlower</text>\n",
-       "</a>\n",
-       "</g>\n",
-       "</g>\n",
-       "<!-- State&#45;&gt;StateFlower -->\n",
-       "<g id=\"edge2\" class=\"edge\">\n",
-       "<title>State-&gt;StateFlower</title>\n",
-       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M140.45,-198.84C121.72,-187.09 93.83,-169.6 74.11,-157.23\"/>\n",
-       "</g>\n",
        "<!-- StateBird -->\n",
-       "<g id=\"node6\" class=\"node\">\n",
+       "<g id=\"node5\" class=\"node\">\n",
        "<title>StateBird</title>\n",
-       "<g id=\"a_node6\"><a xlink:title=\"→ State\r",
+       "<g id=\"a_node5\"><a xlink:title=\"→ State\r",
        "------------------------------\r",
        "bird_image           \r",
        "\">\n",
@@ -1295,10 +1510,22 @@
        "</a>\n",
        "</g>\n",
        "</g>\n",
-       "<!-- State&#45;&gt;StateBird -->\n",
-       "<g id=\"edge3\" class=\"edge\">\n",
-       "<title>State-&gt;StateBird</title>\n",
-       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M160.62,-194.8C160.62,-183.95 160.62,-169.87 160.62,-159.05\"/>\n",
+       "<!-- FlagSaturation -->\n",
+       "<g id=\"node6\" class=\"node\">\n",
+       "<title>FlagSaturation</title>\n",
+       "<g id=\"a_node6\"><a xlink:title=\"→ StateFlag\r",
+       "------------------------------\r",
+       "saturation           \r",
+       "\">\n",
+       "<ellipse fill=\"#ff0000\" fill-opacity=\"0.125490\" stroke=\"#ff0000\" stroke-opacity=\"0.125490\" cx=\"319.62\" cy=\"-75\" rx=\"13\" ry=\"13\"/>\n",
+       "<text text-anchor=\"middle\" x=\"319.62\" y=\"-71.9\" font-family=\"arial\" font-size=\"12.00\" fill=\"#7f0000\" fill-opacity=\"0.627451\">FlagSaturation</text>\n",
+       "</a>\n",
+       "</g>\n",
+       "</g>\n",
+       "<!-- FlagSaturation&#45;&gt;FlagHue -->\n",
+       "<g id=\"edge2\" class=\"edge\">\n",
+       "<title>FlagSaturation-&gt;FlagHue</title>\n",
+       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M319.62,-61.86C319.62,-51.45 319.62,-36.53 319.62,-26.12\"/>\n",
        "</g>\n",
        "<!-- StateFlag -->\n",
        "<g id=\"node7\" class=\"node\">\n",
@@ -1312,43 +1539,48 @@
        "</a>\n",
        "</g>\n",
        "</g>\n",
-       "<!-- State&#45;&gt;StateFlag -->\n",
-       "<g id=\"edge4\" class=\"edge\">\n",
-       "<title>State-&gt;StateFlag</title>\n",
-       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M180.78,-197.87C198.31,-186.01 223.64,-168.87 241.46,-156.82\"/>\n",
-       "</g>\n",
        "<!-- StateFlag&#45;&gt;FlagBrightness -->\n",
-       "<g id=\"edge5\" class=\"edge\">\n",
+       "<g id=\"edge3\" class=\"edge\">\n",
        "<title>StateFlag-&gt;FlagBrightness</title>\n",
        "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M248.58,-124.89C237.45,-112.51 222.27,-95.63 212.98,-85.29\"/>\n",
        "</g>\n",
-       "<!-- FlagSaturation -->\n",
-       "<g id=\"node8\" class=\"node\">\n",
-       "<title>FlagSaturation</title>\n",
-       "<g id=\"a_node8\"><a xlink:title=\"→ StateFlag\r",
-       "------------------------------\r",
-       "saturation           \r",
-       "\">\n",
-       "<ellipse fill=\"#ff0000\" fill-opacity=\"0.125490\" stroke=\"#ff0000\" stroke-opacity=\"0.125490\" cx=\"319.62\" cy=\"-75\" rx=\"13\" ry=\"13\"/>\n",
-       "<text text-anchor=\"middle\" x=\"319.62\" y=\"-71.9\" font-family=\"arial\" font-size=\"12.00\" fill=\"#7f0000\" fill-opacity=\"0.627451\">FlagSaturation</text>\n",
-       "</a>\n",
-       "</g>\n",
-       "</g>\n",
        "<!-- StateFlag&#45;&gt;FlagSaturation -->\n",
-       "<g id=\"edge6\" class=\"edge\">\n",
+       "<g id=\"edge4\" class=\"edge\">\n",
        "<title>StateFlag-&gt;FlagSaturation</title>\n",
        "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M276.42,-124.89C287.36,-112.51 302.28,-95.63 311.42,-85.29\"/>\n",
        "</g>\n",
-       "<!-- FlagSaturation&#45;&gt;FlagHue -->\n",
+       "<!-- State -->\n",
+       "<g id=\"node8\" class=\"node\">\n",
+       "<title>State</title>\n",
+       "<g id=\"a_node8\"><a xlink:title=\"state_code           \r",
+       "------------------------------\r",
+       "state                \r",
+       "\">\n",
+       "<polygon fill=\"#000000\" fill-opacity=\"0.125490\" stroke=\"transparent\" points=\"180.62,-230 140.62,-230 140.62,-195 180.62,-195 180.62,-230\"/>\n",
+       "<text text-anchor=\"start\" x=\"148.62\" y=\"-211\" font-family=\"arial\" text-decoration=\"underline\" font-size=\"10.00\">State</text>\n",
+       "</a>\n",
+       "</g>\n",
+       "</g>\n",
+       "<!-- State&#45;&gt;StateFlower -->\n",
+       "<g id=\"edge5\" class=\"edge\">\n",
+       "<title>State-&gt;StateFlower</title>\n",
+       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M140.45,-198.84C121.72,-187.09 93.83,-169.6 74.11,-157.23\"/>\n",
+       "</g>\n",
+       "<!-- State&#45;&gt;StateBird -->\n",
+       "<g id=\"edge6\" class=\"edge\">\n",
+       "<title>State-&gt;StateBird</title>\n",
+       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M160.62,-194.8C160.62,-183.95 160.62,-169.87 160.62,-159.05\"/>\n",
+       "</g>\n",
+       "<!-- State&#45;&gt;StateFlag -->\n",
        "<g id=\"edge7\" class=\"edge\">\n",
-       "<title>FlagSaturation-&gt;FlagHue</title>\n",
-       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M319.62,-61.86C319.62,-51.45 319.62,-36.53 319.62,-26.12\"/>\n",
+       "<title>State-&gt;StateFlag</title>\n",
+       "<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-opacity=\"0.250980\" d=\"M180.78,-197.87C198.31,-186.01 223.64,-168.87 241.46,-156.82\"/>\n",
        "</g>\n",
        "</g>\n",
        "</svg>"
       ],
       "text/plain": [
-       "<datajoint.diagram.Diagram at 0x7f0288380d90>"
+       "<datajoint.diagram.Diagram at 0x7f3fbec5f9a0>"
       ]
      },
      "execution_count": 44,
@@ -1357,6 +1589,12 @@
     }
    ],
    "source": [
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+>>>>>>> a2d0258515cfdafddf043c9f20a9fad707b4f0da
     "dj.Diagram(schema)"
    ]
   },
